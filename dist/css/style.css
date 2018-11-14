@@ -1,0 +1,138 @@
+
+header{
+  height: 100vh;
+  background: url(/img/firstBg.png) center/cover;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.header__title{
+  /* max-width: 670px; */
+  /* -moz-transform: matrix( 0.77012278308322,0,0,0.76990049751244,0,0);
+  -webkit-transform: matrix( 0.77012278308322,0,0,0.76990049751244,0,0);
+  -ms-transform: matrix( 0.77012278308322,0,0,0.76990049751244,0,0); */
+  margin-top: 130px;
+  margin-bottom: 40px;
+}
+.header__title span{
+  /* font-family: 'Architects Daughter', cursive; */
+  font-size: 30.564px;
+  font-family: "Myriad Pro";
+  color: rgb(68, 160, 155);
+  line-height: 0.801;
+  text-align: left;
+}
+h1{
+  font-size: 45px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 0, 0);
+  line-height: 1.355;
+  text-align: left;
+  font-weight: normal;
+}
+.header__btn {
+  font-family: "Myriad Pro";
+  color: rgb(255, 129, 65);
+  line-height: 1.469;
+  position: relative;
+}
+.header__btn p{
+position: absolute;
+font-size: 22px;
+z-index: 2;
+top: 6px;
+}
+
+.header__btn button{
+position: absolute;
+z-index: 2;
+background: rgb(255, 129, 65);
+font-size: 26.724px;
+font-family: "Myriad Pro";
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+line-height: 1.253;
+text-align: center;
+padding: 5px 100px;
+text-align: center;
+border-radius: 50px;
+top: 70px;
+}
+
+.header__btn::before{
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 150px;
+  background: #fff;
+  border-radius: 0 100px 100px 0;
+  z-index: 0;
+}
+.header__magnet img{
+  position: absolute;
+  top: 37%;
+  left: 76%;
+  width: 24%;
+}
+.header__scroll a {
+  position: absolute;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  top: 90%;
+  left: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  display: flex;
+}
+h2{
+  font-size: 35px;
+  font-family: "Visby CF";
+  color: rgb(58, 74, 98);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+}
+li {
+  list-style: none;
+  list-style-image: url(/img/rect.png);
+  padding: 10px;
+  font-size: 15px;
+}
+.list button {
+  background: rgb(255, 129, 65);
+  font-size: 24.724px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.253;
+  text-align: center;
+  padding: 5px 80px;
+  text-align: center;
+  border-radius: 50px;
+}
+.list{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.main__video{
+  width: 60%;
+}
+footer{
+  background: #273d50;
+}
+footer p{
+  font-size: 42px;
+  font-family: "Myriad Pro";
+  color: rgb(254, 253, 253);
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+
+}
